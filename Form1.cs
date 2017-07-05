@@ -17,8 +17,8 @@ namespace ChangeVersionNumberTool
         public Form1()
         {
             InitializeComponent();
-            //tbFolderPath.Text = Properties.Settings.Default.FolderPath;
-            tbFolderPath.Text = "C:\\Users\\user\\Desktop\\20170623_EP16.1update";
+            tbFolderPath.Text = Properties.Settings.Default.FolderPath;
+            //tbFolderPath.Text = "C:\\Users\\user\\Desktop\\20170623_EP16.1update";
 
         }
 
