@@ -1,0 +1,9 @@
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\bin\Debug\ChangeVersionNumberTool.exe.config
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.Form1.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.Properties.Resources.resources
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.csproj.GenerateResource.Cache
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\bin\Debug\ChangeVersionNumberTool.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\bin\Debug\ChangeVersionNumberTool.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.exe
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.pdb
+C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.csprojResolveAssemblyReference.cache
