@@ -45,7 +45,7 @@ namespace ChangeVersionNumberTool
                 string html = File.ReadAllText(file);
                 //將version number取代掉
                 int unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
-                string newHtml = Regex.Replace(html, @"\?version=(\d*)", "?version="+ unixTimestamp.ToString());
+                string newHtml = Regex.Replace(html, @"(?<=(css|js|png|jpg)(\?version=))(\d*)", unixTimestamp.ToString());
                 //寫回檔案
                 File.WriteAllText(file, newHtml);
             }
