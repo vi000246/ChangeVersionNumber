@@ -28,7 +28,7 @@ namespace ChangeVersionNumberTool
             if (folderBrowserDialog1.ShowDialog() == DialogResult.OK)
             {
                 tbFolderPath.Text = folderBrowserDialog1.SelectedPath;
-                Properties.Settings.Default["FolderPath"] = folderBrowserDialog1.SelectedPath;
+                Properties.Settings.Default.FolderPath = folderBrowserDialog1.SelectedPath;
                 Properties.Settings.Default.Save();
             }
         }
@@ -44,7 +44,8 @@ namespace ChangeVersionNumberTool
                 //讀取檔案的內容
                 string html = File.ReadAllText(file);
                 //將version number取代掉
-                string newHtml = Regex.Replace(html, @"\?version=(\d*)", "?version="+ ndVersionNumber.Value.ToString());
+                int unixTimestamp = (Int32)(DateTime.UtcNow.Subtract(new DateTime(1970, 1, 1))).TotalSeconds;
+                string newHtml = Regex.Replace(html, @"\?version=(\d*)", "?version="+ unixTimestamp.ToString());
                 //寫回檔案
                 File.WriteAllText(file, newHtml);
             }

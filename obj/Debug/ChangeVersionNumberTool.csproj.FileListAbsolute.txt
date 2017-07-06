@@ -6,4 +6,3 @@ C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\Chan
 C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\bin\Debug\ChangeVersionNumberTool.pdb
 C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.exe
 C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.pdb
-C:\Users\user\Documents\Visual Studio 2015\Projects\ChangeVersionNumberTool\ChangeVersionNumberTool\obj\Debug\ChangeVersionNumberTool.csprojResolveAssemblyReference.cache
