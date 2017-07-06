@@ -101,16 +101,16 @@
             this.label4.Font = new System.Drawing.Font("微軟正黑體", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label4.Location = new System.Drawing.Point(12, 69);
             this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(232, 80);
+            this.label4.Size = new System.Drawing.Size(228, 96);
             this.label4.TabIndex = 9;
-            this.label4.Text = "說明:\r\n匹配路徑下所有的html檔，將\r\n\"?version=數字\" 的字串換成指定的版本號\r\n只匹配js/css/png/jpg後面接的?version=\r\n" +
-    "\r\n";
+            this.label4.Text = "說明:\r\n匹配路徑下所有的html檔，將\r\n\"?version=數字\" 的字串\r\n換成Unix時間戳記表示的版本號\r\n只匹配js/css/png/jpg後面接的?" +
+    "version=\r\n\r\n";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(327, 155);
+            this.ClientSize = new System.Drawing.Size(327, 173);
             this.Controls.Add(this.label4);
             this.Controls.Add(this.lbStatus);
             this.Controls.Add(this.label3);
